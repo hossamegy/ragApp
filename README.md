@@ -15,4 +15,13 @@ $ conda create -n rag-app python=3.8
 3) activate the environment using the following command:
 ```bash
 conda activate rag-app
-``
+```
+4) pip install requirements file using the following command:
+```bash
+pip install -r requirements.txt
+```
+5) Setup the environment variables
+```bash
+cp .env.example .env
+```
+Set your environment variable in the `.env` file. `like GOOGLE_API_KEY` value
