@@ -25,3 +25,8 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 Set your environment variable in the `.env` file. `like GOOGLE_API_KEY` value
+6) Run FastApi server
+
+```bash
+uvicorn main:app --reload
+```
