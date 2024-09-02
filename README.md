@@ -30,4 +30,3 @@ Set your environment variable in the `.env` file. `like GOOGLE_API_KEY` value
 ```bash
 uvicorn main:app --reload
 ```
-h
