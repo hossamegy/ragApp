@@ -10,7 +10,7 @@ https://www.anaconda.com/download/success
 
 2) create new environment using the following command:
 ```bash
-$ conda create -n rag-app python=3.8      
+$ conda create -n rag-app python=3.9     
 ```
 3) activate the environment using the following command:
 ```bash
